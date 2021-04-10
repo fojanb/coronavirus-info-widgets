@@ -1,0 +1,23 @@
+.App {
+  display: grid;
+  grid-template-columns: 700px;
+  text-align: center;
+  background-color:#457b9d;
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+ 
+}
+.widgetHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.widgetHeader > img {
+  margin-top: 10px;
+}

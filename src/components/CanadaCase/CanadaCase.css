@@ -1,0 +1,55 @@
+.cardHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 60px;
+}
+.cases {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #f1faee;
+  border-radius: 10px;
+  padding-top: 20px;
+  width: 250px;
+  text-align: center;
+  color: #f1faee;
+}
+.status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#totalCases {
+  font-weight: bold;
+  color: #f1faee;
+}
+#deathCases {
+  color: #f8ad9d;
+  font-weight: bold;
+  border-left: 2px solid #a8dadc;
+  padding-left: 10px;
+}
+#recoveredCases {
+  color: #95d5b2;
+  font-weight: bold;
+  border-left: 2px solid #a8dadc;
+  padding-left: 10px;
+}
+#updateDate {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #f1faee;
+  border-radius: 5px;
+  color: #f1faee;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 20px;
+}
